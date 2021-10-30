@@ -1,0 +1,49 @@
+body {
+    background: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 16px); 
+  }
+  
+  div, ul {
+    background: white;
+    margin: 2px;
+  }
+  
+  h1 {
+    padding: 20px;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  div {
+      flex: 1;
+      background-size: cover;
+      justify-content: center;
+      overflow: hidden;
+  }
+
+  img {
+      min-width: 100%;
+  }
+  
+  ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding-inline-start: 0px;
+
+  }
+  
+  li {
+    padding: 20px;
+  }
+
+  a {
+    color: black;  
+    text-decoration: none;
+  }
