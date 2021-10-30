@@ -1,0 +1,19 @@
+li{
+    list-style: none;
+}
+
+body{
+    display: flex;
+    background-color: rgb(170, 252, 255);
+}
+
+#home{
+ margin:auto; 
+ text-align: center;
+ font-size: 350%;
+}
+
+#about{
+    flex-direction : column;
+    text-align: center;
+}
