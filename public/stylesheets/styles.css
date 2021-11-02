@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+
+/*global*/
+
+body{
+    background-color: #e5f9e4;
+    text-align: center;
+}
+
+h1{
+    color: #1e5f13;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+}
+
+h2 {
+    color: #66bf73;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    text-align: center;
+    Padding-bottom:10px;
+}
+
+h3 {
+    color: #1e5f13;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    Padding-bottom:10px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color:#40514E;
+    font-size: 20px;
+    display: inline-block;
+}
+
+/*top container*/
+.top-container{
+background-color: #e5f9e4;
+position: relative;
+padding-top: 50px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position:absolute;
+}
+
+.mountain {
+    position:relative;
+    left:300px;
+}
+
+/*second container*/
+
+
+  /* Style the links inside the navigation bar */
+
+.topnav {
+    background-color:#1e5f13 ;
+    display:flex;
+    font-family: 'Montserrat', sans-serif;
+}
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #66bf73;
+}
+
+/*second container*/
+.second-container{
+    padding-top: 10%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.tabby-description{
+    padding-bottom: 20px;
+}
+
+.tabby{
+border-radius: 50%;
+width:500px;
+}
+
