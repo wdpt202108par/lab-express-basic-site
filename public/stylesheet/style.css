@@ -1,0 +1,158 @@
+
+body {
+  margin: 0;
+  background-color: lightblue;
+  color: white;
+  font-family: 'Roboto', sans serif;
+}
+
+h1 {
+  margin-left: 50px;
+}
+
+h2 {
+  margin: 0;
+}
+
+nav {
+  margin-left: 50px; margin-right: 50px;
+  display: flex;
+  background-color: lightgoldenrodyellow;
+  color: lightblue;
+
+}
+
+aside {
+  margin: 50px 100px;
+  padding: 40px;
+  background-color: rgb(203, 236, 247);
+  color: midnightblue;
+}
+
+aside h3 {
+  color: rgba(25, 25, 112, 0.61);
+}
+
+aside p {
+  line-height: 1.8;
+}
+
+aside a {
+  color: lightgoldenrodyellow;
+  font-size: 110%;
+  text-align: start;
+}
+
+.actus {
+  display: flex;
+  gap: 40px;
+}
+
+.actus a {
+  padding: 25px; 
+}
+.actus p {
+  padding: 20px;
+}
+
+.titre {
+  display: block;
+  font-size: 130%;
+  padding: 5px 0px;
+}
+
+.auteur {
+  color: rgba(25, 25, 112, 0.61);
+}
+
+article {
+  margin: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+article img {
+  height: 350px;
+}
+
+a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: rgba(25, 25, 112, 0.61);
+  font-size: 120%;
+  padding: 10px;
+}
+
+a:hover {
+  color: yellowgreen;
+}
+
+
+
+.about {
+  display: flex;
+}
+
+.about img {
+  margin: 30px;
+}
+
+.about p {
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container img {
+  height: 400px;
+}
+
+.presse a {
+  color:rgba(25, 25, 112, 0.61);
+}
+.presse img {
+  height: 400px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: white;
+  margin: 0;
+  padding: 20px;
+  font-size: 80%;
+  color: midnightblue;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  margin: 0 auto; 
+}
+
+footer div {
+  margin: auto;
+  width: 33%;
+}
+
+footer img {
+  height: 50px;
+}
+
+.sources {
+  background-color: lightblue;
+  display: flex;
+  margin: 10px;
+  padding: 0;
+}
+
+.sources a {
+  color:silver;
+  font-size: 80%;
+}
+
